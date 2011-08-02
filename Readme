@@ -1,0 +1,29 @@
+// Advanced Captcha for ASP.NET
+// Developed by Ilker Guller
+//
+// http://developerarea.blogspot.com
+
+
+:: HOW TO USE ::
+
+1. Upload CaptchaImg.aspx, CaptchaImg.aspx.cs and App_Code/Captcha.cs files to your server.
+
+2. Add img tag to your page and change src value to "CaptchaImg.aspx" (for example; add this tag : <img src="/CaptchaImg.aspx" width="175" height="35" />)
+
+3. That's it :)
+
+------------------
+
+:: SETTINGS ::
+
+charLength (int) = Get / Set Text Length on the Captcha Image
+
+caseSensitive (bool) = Get / Set Case Sensitive Control
+
+onlyNumber (bool) = Set True if you want to see only Number
+
+onlyChar (bool) = Set True if you want to see only latin characters
+
+captchaSessionName (string) = Get / Set Captcha Session Name
+
+!! You must change values before "new Captcha". !!
